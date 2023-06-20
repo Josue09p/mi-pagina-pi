@@ -62,7 +62,7 @@ body {
 
 .pie-pagina{    
     width: 100%;
-    background: url(PARTE\ 5.png)  ;
+    background: url("../assets/PARTE\ 5.png")  ;
 }
 .pie-pagina .grupo-1{
     width: 100%;
