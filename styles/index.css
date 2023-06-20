@@ -1,0 +1,452 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+
+
+/* Estilos para los elementos de encabezado */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+/* Estilos para los elementos de párrafo */
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+/* Estilos para los enlaces */
+a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+img,
+svg,
+video {
+    display: block;
+}
+
+body {
+    font-family: "Indie Flower", cursive;
+}
+
+/*video*/
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container {
+    width: 100%;
+    /* Ajusta el ancho según tus necesidades */
+}
+
+.video-container video {
+    display: block;
+    width: 100%;
+    height: auto;
+    /* El alto se ajustará proporcionalmente al ancho */
+}
+
+.bodybody {
+    background: url("../assets/fondo verde.png");
+}
+
+.carousel img {
+    height: 1000px;
+    width: 300;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    background: url("../assets/PARTE 5.png");
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 0 8px 8px hsla(0, 0%, 0%, 25%);
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 30px 30px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: hsl(120, 1%, 17%);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*texto centrado*/
+.centrado {
+    text-align: justify;
+    /* Alineación justificada */
+    text-justify: inter-word;
+    /* Distribución uniforme de espacios entre palabras */
+}
+
+.content.sau {
+    padding-top: 370px;
+    /*::::: Ajusta el espaciado superior del Titulo PRODUCTO JASKJDA*/
+}
+
+.title {
+    margin-top: 400px;
+    /* :::::Elimina el margen superior del Titulo ajkssjkasjd */
+}
+
+.header {
+    height: 60vh !important;
+    background: url("../assets/PARTE 5.png")  ;
+    background-size: cover;
+}
+
+.titlep {
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding: 0 100px;
+}
+
+.titlep2 {
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    padding: 0 100px;
+}
+
+.btn.ver-mas {
+    border-radius: 1rem;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px 40px;
+    background-color: rgb(6, 69, 206);
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: inherit;
+    width: fit-content;
+    transition: background-color 200ms ease-in-out;
+}
+
+.btn.ver-mas:hover {
+    background-color: rgb(5, 53, 158);
+
+
+}
+
+.content.about2 .contain {
+    display: flex;
+    flex-direction: column;
+}
+
+.content.about2 .btn.video a {
+    display: block;
+    max-width: fit-content;
+    margin: auto;
+}
+
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.content.sau {
+    font-size: 20px;
+}
+
+
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .contain p {
+    text-align: center;
+}
+
+
+.sau {
+    padding: 350px;
+    background: url("../assets/fondo\ verde.png")
+}
+
+.about {
+    padding: 350px;
+    background: url("../assets/PARTE\ 5.png")
+}
+
+
+
+.about2 {
+    padding: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("../assets/fondo\ verde.png");
+}
+
+.price {
+    background: url("../assets/PARTE\ 5.png" );
+
+}
+
+/*imagenes y descripción*/
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-item {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.left {
+    text-align: left;
+}
+
+.contenedor-imagen {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.contenedor-imagen img {
+    width: 100%;
+    height: auto;
+}
+
+.contenedor-imagen .descripcion {
+    background: url("../assets/PARTE\ 5.png");
+    text-align: center;
+}
+
+.contenedor-imagen .descripcion p {
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+
+}
+
+/* linea que separa mi footer de mi contenido */
+.linea {
+    border: none;
+    border-top: 40px solid #01db9a;
+    /* Color y estilo de la línea */
+    margin: 1px 0;
+    /* Espacio entre las secciones */
+}
+
+/*:::::Pie de Pagina Josu*/
+.pie-pagina {
+    width: 100%;
+    background: url("../assets/PARTE\ 5.png");
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+    width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+    color: #000000;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p {
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #ffffff;
+    margin-right: 10px;
+    background-color: #000000;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+    color: rgb(248, 255, 154);
+}
+
+.pie-pagina .grupo-2 {
+    background-color: #571f1f;
+    padding: 15px 10px;
+    text-align: center;
+    color: #000000;
+}
+
+.pie-pagina .grupo-2 small {
+    font-size: 15px;
+
+}
+
+.pie-pagina .grupo-2 {
+    background: url("../assets/fondo\ verde.png");
+}
+
+/*ashsasjkd*/
+
+
+/* Estilos para los elementos con la clase "titlep" */
+.titlep {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+/* Estilos para los elementos con la clase "centrado" */
+.centrado {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+.bubble-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+}
+
+.bubble {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Ajusta la transparencia aquí */
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation: float-bubble 3s infinite;
+}
+
+@keyframes float-bubble {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-100vh);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Centrar imágen en seccion ubicanos */
+.geolocation-image {
+    margin: auto;
+}
+
+.geolocation-image img {
+    border-radius: 1rem;
+    width: 100%;
+}

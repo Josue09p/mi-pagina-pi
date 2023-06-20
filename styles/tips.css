@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    background: #009F53;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 34px 34px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: hsl(120, 1%, 17%);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+/*pie de pagina*/
+
+.pie-pagina{    
+    width: 100%;
+    background: url(PARTE\ 5.png)  ;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: rgb(27, 214, 214);
+}
+.pie-pagina .grupo-2{
+    background-color: #571f1f;
+    padding: 15px 10px;
+    text-align: center;
+    color: #ffffff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+ 
+}
+.pie-pagina .grupo-2{
+    background-color: #009F53;
+}
+/* titulos */
+.titlep {
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding: 0 100px;
+}
+/* pruebade img con descripcion*/
+.contenedor-imagen {
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar contenido que sobrepase el contenedor */
+    ; /* Ancho del contenedor */
+  }
+  
+  .descripcion {
+    background-color: #F1F1F1; /* Color de fondo de la descripción */
+    padding: 10px; /* Espaciado interno de la descripción */
+  }
+  
+  .descripcion p {
+    margin: 0; /* Eliminar margen del párrafo para que esté pegado a la descripción */
+  }
+  
+
+/*css de las imagenes*/
+.gallery {
+    padding-top:300px; /*::::: Ajusta el espaciado superior del Titulo PRODUCTO JASKJDA*/
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .gallery-item {
+    width: 30%;
+    margin-bottom: 30px;
+  }
+  
+  .left {
+    text-align: left;
+  }
+  
+  .right {
+    text-align: right;
+  }
+  
+  .contenedor-imagen {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .contenedor-imagen img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .contenedor-imagen .descripcion {
+    background-color: #376649;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .contenedor-imagen .descripcion p {
+    margin: 0;
+  }
+  
+  
+
+  

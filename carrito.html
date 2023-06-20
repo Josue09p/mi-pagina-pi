@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<link rel="stylesheet" href="./styles/carrito.css">
+	<script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+		rel="stylesheet">
+	<title>GoyuSelva</title>
+
+</head>
+
+<body>
+
+	<div class="head">
+
+		<div class="logo">
+			<a href="index.html">
+				<h1 class="mb-0"><img src="./assets/GoyuComprimido.png" width="120px" height="85px">
+			</a></h1>
+			</li>
+		</div>
+
+		<nav class="navbar">
+			<a href="nosotros.html">Nosotros</a>
+			<a href="carrito.html">Comprar</a>
+			<a href="tips.html">Tips de uso</a>
+			<div class="container-icon">
+				<div class="container-cart-icon">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+						stroke="currentColor" class="icon-cart">
+						<path stroke-linecap="round" stroke-linejoin="round"
+							d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+					</svg>
+					<div class="count-products">
+						<span id="contador-productos">0</span>
+					</div>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="row-product hidden">
+						<div class="cart-product">
+							<div class="info-cart-product">-
+								<span class="cantidad-producto-carrito">1</span>
+								<p class="titulo-producto-carrito">Gomita</p>
+								<span class="precio-producto-carrito">$80</span>
+							</div>
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+								stroke="currentColor" class="icon-close">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+							</svg>
+						</div>
+					</div>
+
+					<div class="cart-total hidden">
+						<h3>Total:</h3>
+						<span class="total-pagar">$200</span>
+					</div>
+					<center>
+						<button id="comprarBtn" class="hidden"></button>
+						<img src="./assets/comprar.webp" width="35%" height="30%">
+					</center>
+					<p class="cart-empty">El carrito está vacío</p>
+				</div>
+		</nav>
+
+	</div>
+	<style>
+		body {
+			background-image: url("./assets/fondo verde.png");
+			background-size: cover;
+		}
+	</style>
+	<header>
+
+		<div class="container-items">
+			<div class="item">
+				<figure>
+					<img src="./assets/250ml-liquidacarrito.png" alt="producto" />
+				</figure>
+				<div class="info-product">
+					<h2>Goma grande - 250ml</h2>
+					<p>Facil de usar como tu ex</p>
+					<p>No toxico</p>
+					<p class="price">$.4.00</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img src="./assets/125-liquidacarrito.png" alt="producto" />
+				</figure>
+				<div class="info-product">
+					<h2>Goma mediana - 125ml</h2>
+					<p class="price">$.3.00</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img src="./assets/barra-carrito.png" alt="producto" />
+				</figure>
+				<div class="info-product">
+					<h2>Goma en barra</h2>
+					<p class="price">$.4.00</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<script src="./scripts/carrito.js"></script>
+
+</body>
+
+</html>

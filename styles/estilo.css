@@ -1,0 +1,4 @@
+html body .carrusel {
+    max-width: 80% !important; 
+    margin: auto !important;
+}
